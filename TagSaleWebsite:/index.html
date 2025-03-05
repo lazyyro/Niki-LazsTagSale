@@ -1,65 +1,63 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2759
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazaro & Nicole's Tag Sale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        .payment-methods {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .contact {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
 
-\f0\fs24 \cf0 <!DOCTYPE html>\
-<html lang="en">\
-<head>\
-    <meta charset="UTF-8">\
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
-    <title>Lazaro's & Nicole's Tag Sale</title>\
-    <link rel="stylesheet" href="styles.css"> <!-- Linking the styles -->\
-    <script defer src="script.js"></script> <!-- Linking the JavaScript -->\
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">\
-</head>\
-<body>\
-    <header>\
-        <div class="cart">\
-            <a href="#" onclick="viewCart()">\
-                <img src="images/cart.png" alt="Shopping Cart" class="cart-icon">\
-            </a>\
-        </div>\
-        <div class="title-container">\
-            <h1>Lazaro's & Nicole's Tag Sale</h1>\
-            <p class="location">Arthur Lane, White Plains, NY 10603</p>\
-            <p class="payment-info">\
-                (All CashApp, PayPal, and Zelle orders go to the accounts provided below. \
-                All purchases are finalized, and there are no refunds. Customers must pick up their items on the day of the tag sale.)\
-            </p>\
-            <p class="contact-info">\
-                For any questions about items, contact: \
-                <a href="tel:9145275988">914-527-5988</a> or <a href="mailto:lazyyro@gmail.com">lazyyro@gmail.com</a>\
-            </p>\
-        </div>\
-    </header>\
-    \
-    <section id="products">\
-        <!-- Images will be dynamically loaded here from JavaScript -->\
-    </section>\
-    \
-    <div id="cart-overlay">\
-        <div class="cart-content">\
-            <h2>Your Cart</h2>\
-            <ul id="cart-items"></ul>\
-            <p id="total-price"></p>\
-            <input type="text" id="customer-name" placeholder="Enter First and Last Name" required>\
-            <h3>Choose Payment Method:</h3>\
-            <p>CashApp: $lazyyro</p>\
-            <p>PayPal: @lazyyyro</p>\
-            <p>Zelle: (914) 281-3343</p>\
-            <button onclick="checkout()">Preorder</button>\
-            <button onclick="closeCart()">Close</button>\
-        </div>\
-    </div>\
-    \
-    <section id="sold-items">\
-        <h2>Sold Items</h2>\
-        <ul id="sold-list"></ul>\
-    </section>\
-<script defer src="script.js"></script>\
-</body>\
-</html>\
-}
+    <div class="container">
+        <h1>Lazaro & Nicole's Tag Sale</h1>
+        <p><strong>Location:</strong> Arthur Lane, White Plains, NY 10603</p>
+        <p><strong>All CashApp, PayPal, and Zelle orders</strong> go to the accounts provided below. <br>All purchases are finalized, and there are no refunds. Customers must pick up their items on the day of the tag sale.</p>
+
+        <div class="contact">
+            <p><strong>For any questions about items, contact:</strong></p>
+            <p>📞 914-527-5988</p>
+            <p>✉️ <a href="mailto:lazyyro@gmail.com">lazyyro@gmail.com</a></p>
+        </div>
+
+        <h2>Your Cart</h2>
+
+        <h3>Choose Payment Method:</h3>
+        <div class="payment-methods">
+            <p>💲 CashApp: <strong>$lazyyro</strong></p>
+            <p>💲 PayPal: <strong>@lazyyyro</strong></p>
+            <p>💲 Zelle: <strong>(914) 281-3343</strong></p>
+        </div>
+
+        <h3>Sold Items</h3>
+        <p>Sold items will be updated here.</p>
+    </div>
+
+</body>
+</html>

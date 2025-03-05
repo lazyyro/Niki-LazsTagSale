@@ -1,117 +1,109 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2759
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+body {
+    font-family: 'VT323', monospace;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
-\f0\fs24 \cf0 body \{\
-    font-family: 'VT323', monospace;\
-    background-color: white;\
-    color: black;\
-    text-align: center;\
-    margin: 0;\
-    padding: 0;\
-\}\
-\
-header \{\
-    padding: 20px;\
-    border-bottom: 3px solid black;\
-    display: flex;\
-    justify-content: center;\
-    align-items: center;\
-    flex-direction: column;\
-    background: white;\
-    text-transform: uppercase;\
-\}\
-\
-h1 \{\
-    font-size: 42px;\
-    font-weight: bold;\
-    letter-spacing: 3px;\
-    text-shadow: 2px 2px black;\
-\}\
-\
-.contact-info, .payment-info \{\
-    font-size: 14px;\
-    margin-top: 10px;\
-    font-weight: bold;\
-\}\
-\
-.cart \{\
-    position: absolute;\
-    right: 20px;\
-    top: 20px;\
-\}\
-\
-.cart-icon \{\
-    width: 32px;\
-    height: 32px;\
-\}\
-\
-#products \{\
-    display: grid;\
-    grid-template-columns: repeat(4, 1fr);\
-    gap: 20px;\
-    padding: 20px;\
-\}\
-\
-.product img \{\
-    width: 100%;\
-    height: auto;\
-    border: 3px solid black;\
-\}\
-\
-button \{\
-    background: black;\
-    color: white;\
-    border: 3px solid black;\
-    padding: 10px;\
-    cursor: pointer;\
-    text-transform: uppercase;\
-    font-size: 18px;\
-    box-shadow: 2px 2px black;\
-\}\
-\
-button:hover \{\
-    background: white;\
-    color: black;\
-\}\
-\
-#cart-overlay \{\
-    display: none;\
-    position: fixed;\
-    top: 0;\
-    left: 0;\
-    width: 100%;\
-    height: 100%;\
-    background: rgba(0, 0, 0, 0.9);\
-    color: white;\
-    justify-content: center;\
-    align-items: center;\
-    font-size: 20px;\
-\}\
-\
-.cart-content \{\
-    background: black;\
-    padding: 20px;\
-    box-shadow: 4px 4px white;\
-    border: 3px solid white;\
-\}\
-\
-#sold-items \{\
-    margin-top: 40px;\
-    padding: 20px;\
-    border-top: 3px solid black;\
-\}\
-\
-#sold-items h2 \{\
-    font-size: 28px;\
-    font-weight: bold;\
-\}\
-\
-#sold-list \{\
-    list-style: none;\
-    padding: 0;\
-\}\
+header {
+    padding: 20px;
+    border-bottom: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px black;
+}
+
+.contact-info, .payment-info {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.cart {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.cart-icon {
+    width: 32px;
+    height: 32px;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+}
+
+button {
+    background: black;
+    color: white;
+    border: 3px solid black;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 18px;
+    box-shadow: 2px 2px black;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+#cart-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.cart-content {
+    background: black;
+    padding: 20px;
+    box-shadow: 4px 4px white;
+    border: 3px solid white;
+}
+
+#sold-items {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 3px solid black;
+}
+
+#sold-items h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#sold-list {
+    list-style: none;
+    padding: 0;
 }
