@@ -16,7 +16,7 @@ function loadProducts() {
             productElement.classList.add("product");
 
             productElement.innerHTML = `
-                <img src="/images/${image}" alt="Product ${index + 1}">
+                <img src="/TagSaleWebsite/images/${image}" alt="Product ${index + 1}">
                 <button onclick="addToCart('${image}')">Preorder</button>
             `;
             productContainer.appendChild(productElement);
@@ -94,7 +94,7 @@ function updateSoldItems() {
 
     soldItems.forEach((item, index) => {
         let listItem = document.createElement("li");
-        listItem.innerHTML = `<img src="images/${item}" alt="Sold Item ${index + 1}">`;
+        listItem.innerHTML = `<img src="/TagSaleWebsite/images/${item}" alt="Sold Item ${index + 1}">`;
         soldList.appendChild(listItem);
     });
 }
