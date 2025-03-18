@@ -16,7 +16,7 @@ function loadProducts() {
             productElement.classList.add("product");
 
             productElement.innerHTML = `
-                <img src="images/${image}" alt="Product ${index + 1}">
+                <img src="/images/${image}" alt="Product ${index + 1}">
                 <button onclick="addToCart('${image}')">Preorder</button>
             `;
             productContainer.appendChild(productElement);
